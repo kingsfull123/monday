@@ -7,6 +7,19 @@
     <title>responsive images</title>
 </head>
 <body>
-    
+    <div class="container-box">
+        <picture>
+            <source srcset='./assets/images/dog-crop-large.jpg' media='(min-width: 800px)'>
+            <source srcset='./assets/images/dog-crop-medium.jpg' media='(min-width: 570px)'>
+            <img src="./assets/images/dog-crop-small.jpg" alt="img">
+        </picture>
+        <div class="container-box__content">
+            <h1 class="container-box__title">Hello world</h1>
+            <h4 class="container-box__subtitle">This is a testing page</h4>
+            <a href="#" class="container-box__button">find our more</a>
+        </div>
+    </div>
+
+    <script src='./bundled.js'></script>
 </body>
 </html>
