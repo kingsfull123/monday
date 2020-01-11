@@ -1,0 +1,20 @@
+.wrapper {
+    padding-left: 18px;
+    padding-right: 18px;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    &--medium {
+        max-width: 978px;
+    }
+
+    &--blue {
+        background-color: $mainBlue;
+        text-align: center;
+    }
+
+    .wrapper {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

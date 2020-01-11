@@ -1,0 +1,40 @@
+.columns {
+    position: relative;
+    width: 100%;
+    text-align: center;
+
+    &__one-third {
+        width: 100%;
+        display: inline-block;
+
+        @mixin atMedium {
+            width: 30%;
+        }
+    }
+
+    &__two-third {
+        width: 100%;
+        display: inline-block;
+        text-align: justify;
+        font-size: 100;
+
+        @mixin atMedium {
+            width: 60%;
+            padding-left: 50px;
+        }
+    }
+
+    &__half {
+        width: 100%;
+        text-align: center;
+        padding-top: 3rem;
+
+        @mixin atMedium {
+            width: 42%;
+            font-size: 100;
+            display: inline-block;
+            height: 250px;
+            padding-left: 10px;
+        }
+    }
+}
